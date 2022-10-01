@@ -41,7 +41,7 @@ else:
 async def check_user(id):
     ok = True
     try:
-        await BotzHub(GetParticipantRequest(channel='@ABHISHEK71599BIO', user_id=id))
+        await BotzHub(GetParticipantRequest(channel='@ABHISHEK71599BIO', user_id= user.telegramid))
         ok = True
     except UserNotParticipantError:
         ok = False
