@@ -4,7 +4,7 @@ A Forked one! 😂😂! You can find wiki [here](https://github.com/Hirusha-H/Te
 <a href="https://t.me/NexaBotsUpdates"> <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 
 # What Is This?
-A Simple Telegram Bot 🤖 that can upload images , small videos and some stickers.
+A Simple Bot 🤖 that can upload images , small videos and some stickers.
 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/abhishek715999/TelegraphUploader)
