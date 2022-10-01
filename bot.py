@@ -41,7 +41,7 @@ else:
 async def check_user(id):
     ok = True
     try:
-        await BotzHub(GetParticipantRequest(channel='@NexaBotsUpdates', user_id=id))
+        await BotzHub(GetParticipantRequest(channel='@ABHISHEK71599BIO', user_id=id))
         ok = True
     except UserNotParticipantError:
         ok = False
@@ -109,7 +109,7 @@ async def uploader(event):
         return
     else:
         os.remove(downloaded_file_name)
-        await ok.edit("Your file is successfully uploaded to [Telegraph](https://telegra.ph{})\n\nJoin My Updates Channel **@NexaBotsUpdates** ❤️".format(media_urls[0]),
+        await ok.edit("Your file is successfully uploaded to [Telegraph](https://telegra.ph{})\n\nJoin My Updates Channel **@ABHISHEK71599BIO** ❤️".format(media_urls[0]),
                     link_preview=True,
                     buttons=[
                         Button.url("🔗 Link To File 🔗", url=f"https://telegra.ph{media_urls[0]}")
@@ -120,5 +120,5 @@ def resize_image(image):
     tmp = im.save(image, "PNG")
 
 print("Bot has started.")
-print("Made By XDITYA . Do visit @NexaBotsUpdates..")
+print("Made By XDITYA . Do visit @ABHISHEK71599BIO..")
 BotzHub.run_until_disconnected()
